@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{21A96303-9848-4612-B9BB-8B59266F6363}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{31ADB9D6-2476-4216-94CA-851699149411}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{41B72E71-3034-43F4-9D4B-C574F85E0F13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{271E3F38-945A-4505-AFA1-F4E6E1D5F6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDb.DataAccess", "RavenDb.DataAccess\RavenDb.DataAccess.csproj", "{2B81DCB8-9A6A-484B-A045-A7C3125B9FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDb.Business", "RavenDb.Business\RavenDb.Business.csproj", "{07D58106-DAA2-4696-94CC-CD5C75526C46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Poco", "Poco", "{59A387EB-887A-4CBA-86B4-F26C048F1F16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDb.Poco", "RavenDb.Poco\RavenDb.Poco.csproj", "{C06AE50B-F9DD-4EF5-B101-F609AC0024D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDb.Web", "RavenDb.Web\RavenDb.Web.csproj", "{6FEF3157-7FCE-48AF-8ECD-19E66C564BE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDb.TestHarness", "RavenDb.TestHarness\RavenDb.TestHarness.csproj", "{10674FD1-D459-4FEE-AF6B-7345F898CE65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B81DCB8-9A6A-484B-A045-A7C3125B9FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B81DCB8-9A6A-484B-A045-A7C3125B9FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B81DCB8-9A6A-484B-A045-A7C3125B9FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B81DCB8-9A6A-484B-A045-A7C3125B9FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D58106-DAA2-4696-94CC-CD5C75526C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D58106-DAA2-4696-94CC-CD5C75526C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D58106-DAA2-4696-94CC-CD5C75526C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D58106-DAA2-4696-94CC-CD5C75526C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06AE50B-F9DD-4EF5-B101-F609AC0024D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06AE50B-F9DD-4EF5-B101-F609AC0024D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06AE50B-F9DD-4EF5-B101-F609AC0024D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06AE50B-F9DD-4EF5-B101-F609AC0024D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FEF3157-7FCE-48AF-8ECD-19E66C564BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FEF3157-7FCE-48AF-8ECD-19E66C564BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FEF3157-7FCE-48AF-8ECD-19E66C564BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FEF3157-7FCE-48AF-8ECD-19E66C564BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10674FD1-D459-4FEE-AF6B-7345F898CE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10674FD1-D459-4FEE-AF6B-7345F898CE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10674FD1-D459-4FEE-AF6B-7345F898CE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10674FD1-D459-4FEE-AF6B-7345F898CE65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B81DCB8-9A6A-484B-A045-A7C3125B9FF0} = {41B72E71-3034-43F4-9D4B-C574F85E0F13}
+		{07D58106-DAA2-4696-94CC-CD5C75526C46} = {31ADB9D6-2476-4216-94CA-851699149411}
+		{C06AE50B-F9DD-4EF5-B101-F609AC0024D2} = {59A387EB-887A-4CBA-86B4-F26C048F1F16}
+		{6FEF3157-7FCE-48AF-8ECD-19E66C564BE6} = {21A96303-9848-4612-B9BB-8B59266F6363}
+		{10674FD1-D459-4FEE-AF6B-7345F898CE65} = {271E3F38-945A-4505-AFA1-F4E6E1D5F6DB}
+	EndGlobalSection
+EndGlobal
