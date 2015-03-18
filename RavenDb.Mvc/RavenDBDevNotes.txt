@@ -1,0 +1,17 @@
+Installing Raven DB(This is applicable for RavenDB 3.0)
+---------------------------------------------------------
+1.Download .Net build and extract the zip and run the Raven.Server.exe from http://ravendb.net
+2.Go to the Server/Raven.Server.exe from command line and run Raven.Server.exe /install to run this as a windows service
+      (leave the <add key="Raven/AnonymousAccess" value="Admin"/> on the Server.exe.config file for the service to run properly)
+
+
+
+
+
+
+---------- Inside Raven DB ------------------------------------
+1.RavenDB is behind an Http REST end point and we can access the database using HttpClient
+2.Raven DB is a transactional(Fully supports transactions,allows rolling back)
+3.Stores documents in JSON format
+4.Index in RavenDB is like a Pre-Canned LINQ query(we can easily access data)
+5.IN RavenDB data is accessed from the RavenDB database using http verbs like GET,POST,PUT,DELETE(JUst like a Web client)
