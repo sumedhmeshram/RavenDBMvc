@@ -1,6 +1,6 @@
-﻿using System;
+﻿using RavenDb.Web.Models;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -16,26 +16,13 @@ namespace RavenDb.Web.Controllers
         }
 
         public ActionResult Person()
-        { 
-           List<Person> persons = new List<Person>{
-                                                    new Person{Id = 1,FirstName = "Rennish",LastName=null},
-                                                    new Person{Id = 1,FirstName = "Rennish",LastName="Joseph"},
-                                                    new Person{Id = 1,FirstName = "Anu",LastName="Joseph"}
-           
+        {
+            List<PersonViewModel> persons = new List<PersonViewModel>{
+                                                    new PersonViewModel{Id = 1,FirstName = "Rennish"},
+                                                    new PersonViewModel{Id = 2,FirstName = "Tny",LastName="Abraham"},
+                                                    new PersonViewModel{Id = 3,LastName="Jose"}
                                                   };
-           return View(persons);
+            return View(persons);
         }
-    }
-
-    public class Person
-    {
-        [Display(Name="Person ID")]
-        public int Id { get; set; }
-
-        [Display(Name = "First Name")]
-        public string FirstName { get; set; }
-
-        [Display(Name = "Last Name")]
-        public string LastName { get; set; }
     }
 }
