@@ -3,8 +3,8 @@ Installing Raven DB(This is applicable for RavenDB 3.0)
 1.Download .Net build and extract the zip and run the Raven.Server.exe from http://ravendb.net
 2.Go to the Server/Raven.Server.exe from command line and run Raven.Server.exe /install to run this as a windows service
       (leave the <add key="Raven/AnonymousAccess" value="Admin"/> on the Server.exe.config file for the service to run properly)
-
-
+3.RavenDB comes with a management studio(GUI to view the documents on the RavenDB server) that can be accessed from the url http://localhost:8080/
+4.To connect to RavenDB from .Net applications,we need a document store and a session
 
 
 

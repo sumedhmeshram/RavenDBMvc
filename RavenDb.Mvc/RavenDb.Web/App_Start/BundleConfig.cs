@@ -26,6 +26,9 @@ namespace RavenDb.Web
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new StyleBundle("~/Content/foundation").Include ("~/Content/foundation/foundation.css")
+                         );
         }
     }
 }

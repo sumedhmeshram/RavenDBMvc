@@ -1,0 +1,35 @@
+﻿@model IEnumerable<RavenDb.Web.Controllers.Person>
+<h4>Person View </h4>
+<div class="row">
+    <div class="small-3 columns">
+        @Html.DisplayNameFor(m => m.Id)
+    </div>
+    <div class="small-3 columns">
+        @Html.DisplayNameFor(m => m.FirstName)
+    </div>
+    <div class="small-3 columns end">
+        @Html.DisplayNameFor(m => m.LastName)
+    </div>
+
+</div>
+@foreach (var person in Model)
+{
+    <div class="row">
+        <div class="small-3 columns">
+            <span class="person-id">@Html.DisplayFor(m => person.Id)</span>
+        </div>
+        <div class="small-3 columns">
+            <span class="person-fname">@Html.DisplayFor(m => person.FirstName)</span>
+        </div>
+        <div class="small-3 columns end">
+            <span class="person-lname">@Html.DisplayFor(m => person.LastName)</span>
+        </div>
+    </div>
+
+}
+
+
+
+
+
+

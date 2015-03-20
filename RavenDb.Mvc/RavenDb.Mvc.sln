@@ -32,6 +32,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{D88F
 		RavenDBDevNotes.txt = RavenDBDevNotes.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDB.UnitTest", "RavenDB.UnitTest\RavenDB.UnitTest.csproj", "{D8BB9CA6-078A-46D1-A5DB-36CB5D3C8215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{B6E163D0-81A1-4433-B31B-8158D5EBB2FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +66,10 @@ Global
 		{9AB18E1F-BF29-4A9A-BEA7-214E74A48ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AB18E1F-BF29-4A9A-BEA7-214E74A48ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AB18E1F-BF29-4A9A-BEA7-214E74A48ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8BB9CA6-078A-46D1-A5DB-36CB5D3C8215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BB9CA6-078A-46D1-A5DB-36CB5D3C8215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BB9CA6-078A-46D1-A5DB-36CB5D3C8215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BB9CA6-078A-46D1-A5DB-36CB5D3C8215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +81,6 @@ Global
 		{6FEF3157-7FCE-48AF-8ECD-19E66C564BE6} = {21A96303-9848-4612-B9BB-8B59266F6363}
 		{10674FD1-D459-4FEE-AF6B-7345F898CE65} = {271E3F38-945A-4505-AFA1-F4E6E1D5F6DB}
 		{9AB18E1F-BF29-4A9A-BEA7-214E74A48ACA} = {85B2B271-1513-4BB7-BF1C-9364FE6137BF}
+		{D8BB9CA6-078A-46D1-A5DB-36CB5D3C8215} = {271E3F38-945A-4505-AFA1-F4E6E1D5F6DB}
 	EndGlobalSection
 EndGlobal
