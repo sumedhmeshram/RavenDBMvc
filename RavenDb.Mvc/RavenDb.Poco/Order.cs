@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RavenDb.Business
+namespace RavenDb.Poco
 {
-    public class Class1
+   public class Order
     {
+        public int OrderId { get; set; }       
+
     }
 }

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RavenDb.DataAccess
+namespace RavenDb.DataAccess.Sql
 {
-    public class Class1
+   public interface IOrder
     {
+      
     }
 }

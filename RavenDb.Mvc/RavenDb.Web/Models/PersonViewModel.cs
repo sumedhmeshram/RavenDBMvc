@@ -16,7 +16,7 @@ namespace RavenDb.Web.Models
         public string FirstName { get; set; }
 
         [Display(Name = "Last Name")]
-        [DisplayFormat(NullDisplayText = "N/A")]
+        [DisplayFormat(ConvertEmptyStringToNull = true)]
         public string LastName { get; set; }
     }
 }

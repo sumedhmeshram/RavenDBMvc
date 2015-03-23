@@ -11,7 +11,7 @@ Replaced Packaging API with DotNetZip
 
 
 New Cell store
-* Less memory consumption
+* Less memory consumtion
 * Insert columns (not on the range level)
 * Faster row inserts,
 
@@ -27,7 +27,7 @@ The formula parser does not support Array Formulas
 * References to external workbooks
 * And probably a whole lot of other stuff as well :)
 
-Performance
+Perfomance
 *Of course the performance of the formula parser is nowhere near Excels.Our focus has been functionality.
 
 Agile Encryption (Office 2012-)
